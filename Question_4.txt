@@ -2,7 +2,7 @@ Technique d'utilisation du k-means dans le but de maximiser la séparabilité et
 
 K moyenne. La limite de cette méthode est la dépendance des résultats de départ (centres initiaux). A chaque initialisation correspond une solution différente qui peut dans certain cas être très loin de la solution optimale. 
 
-La méthode K-means présentent donc plusieurs défauts: 
+La méthode K-means présente donc plusieurs défauts: 
 Obligation de fixer K, le résultat dépend fortement du choix des centres initiaux qui ne fournissent pas nécessairement le résultat optimal et qui fournissent un optimum local qui dépend des centres. 
 
 On va évoquer l'alternative qui consiste à choisir une initialisation incorrecte par le mal classé. 
