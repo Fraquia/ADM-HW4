@@ -38,7 +38,7 @@ start = time.time() #starting time
 model1 = KMeans(n_clusters=3) #Cluster K-means
 model1.fit(x) #adapting the model
 
-print(model.labels_)
+print(model1.labels_)
 
 end = time.time() #ending time
 time1 = (end - start)*10**(-3)
@@ -55,7 +55,7 @@ start = time.time()
 model2 = KMeans(n_clusters=7)
 model2.fit(x) #adapting the model
 
-print(model.labels_)
+print(model2.labels_)
 
 end = time.time()
 time2 = (end - start)*10**(-3)
@@ -71,7 +71,7 @@ start = time.time()
 model3 = KMeans(n_clusters=10)
 model3.fit(x) #adapting the model
 
-print(model.labels_)
+print(model3.labels_)
 
 end = time.time()
 time3 = (end - start)*10**(-3)
@@ -89,7 +89,7 @@ start = time.time()
 model4 = KMeans(n_clusters=15)
 model4.fit(x) #adapting the model
 
-print(model.labels_)
+print(model4.labels_)
 
 end = time.time()
 time4 = (end - start)*10**(-3)
@@ -105,7 +105,7 @@ start = time.time()
 model5 = KMeans(n_clusters=20)
 model5.fit(x) #adapting the model
 
-print(model.labels_)
+print(model5.labels_)
 
 end = time.time()
 time5 = (end - start)*10**(-3)
@@ -121,7 +121,7 @@ start = time.time()
 model6 = KMeans(n_clusters=25)
 model6.fit(x) #adapting the model
 
-print(model.labels_)
+print(model6.labels_)
 
 end = time.time()
 time6 = (end - start)*10**(-3)
