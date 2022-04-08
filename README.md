@@ -6,7 +6,7 @@ This work was developed by:
 - Vedat Katirci (@vedatk67)
 - Laura Kerber
 
-In this repository you four python's files where developed from scratch some popular algorithms: 
+In this repository you can find four python's files where developed from scratch some popular algorithms: 
 
 1. **hashing_lib.py** : where we developed an hashing functions 
 2. **sorting_lib.py** : where we developed sorting algorithms for number and letters
